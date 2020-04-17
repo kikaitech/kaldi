@@ -1,0 +1,9 @@
+i_B chi_B ni_B sa_B yo_B n_B go_B ro_B ku_B na_B ha_B kyu_B u_B fu_B kyo_B o_B ke_B gi_B ki_B hi_B ka_B gyo_B to_B ri_B ryu_B ma_B tsu_B ru_B a_B ga_B mi_B da_B su_B gu_B do_B ra_B zu_B 
+i_E chi_E ni_E sa_E yo_E n_E go_E ro_E ku_E na_E ha_E kyu_E u_E fu_E kyo_E o_E ke_E gi_E ki_E hi_E ka_E gyo_E to_E ri_E ryu_E ma_E tsu_E ru_E a_E ga_E mi_E da_E su_E gu_E do_E ra_E zu_E 
+i_I chi_I ni_I sa_I yo_I n_I go_I ro_I ku_I na_I ha_I kyu_I u_I fu_I kyo_I o_I ke_I gi_I ki_I hi_I ka_I gyo_I to_I ri_I ryu_I ma_I tsu_I ru_I a_I ga_I mi_I da_I su_I gu_I do_I ra_I zu_I 
+i_S chi_S ni_S sa_S yo_S n_S go_S ro_S ku_S na_S ha_S kyu_S u_S fu_S kyo_S o_S ke_S gi_S ki_S hi_S ka_S gyo_S to_S ri_S ryu_S ma_S tsu_S ru_S a_S ga_S mi_S da_S su_S gu_S do_S ra_S zu_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 

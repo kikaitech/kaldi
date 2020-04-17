@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 11 -f 2- data/lang/words.txt < data/train/split1/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
+# Started at Wed Apr 15 04:17:08 JST 2020
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 11 -f 2- data/lang/words.txt < data/train/split1/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: replacing 不 with 11
+sym2int.pl: not warning for OOVs any more times
+** Replaced 1256 instances of OOVs with 11
+LOG (compile-train-graphs[5.5.669~1-b1d80]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 11119 graphs, failed for 0
+# Accounting: time=5 threads=1
+# Ended (code 0) at Wed Apr 15 04:17:13 JST 2020, elapsed time 5 seconds

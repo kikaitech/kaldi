@@ -1,0 +1,47 @@
+# gunzip -c exp/tri1/decode/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/tri1/graph 
+# Started at Fri Apr 17 21:30:58 JST 2020
+#
+The total amount of data analyzed assuming 100 frames per second is 0.8 hours
+Overall, lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Nonsilence phones as a group account for 88.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone sil accounts for 11.3% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone chi_E accounts for 5.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ku_E accounts for 5.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone n_E accounts for 4.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone hi_B accounts for 4.2% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone mi_B accounts for 4.2% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone da_I accounts for 4.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone na_B accounts for 3.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ni_B accounts for 3.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone yo_B accounts for 3.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone go_S accounts for 3.4% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone sa_B accounts for 3.2% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone gi_B accounts for 3.1% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone kyu_B accounts for 3.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone na_E accounts for 2.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ro_B accounts for 2.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ri_E accounts for 2.6% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ga_I accounts for 2.5% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ri_I accounts for 2.1% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone to_S accounts for 2.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ha_B accounts for 1.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ka_B accounts for 1.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone i_B accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone u_E accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ki_B accounts for 1.6% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone tsu_E accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ru_E accounts for 1.3% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ke_I accounts for 1.2% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone gi_I accounts for 1.1% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone kyo_I accounts for 1.0% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone i_E accounts for 0.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone u_B accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ke_B accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone gi_E accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone hi_S accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone a_B accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ma_E accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone o_E accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+Phone ryu_B accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)=(1,1,1) and mean=1.0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Apr 17 21:30:58 JST 2020, elapsed time 0 seconds

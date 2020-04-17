@@ -1,0 +1,44 @@
+!SIL sil
+<UNK> spn
+1 i chi
+2 ni i
+3 sa n
+4 yo n
+5 go
+6 ro ku
+7 na na
+8 ha chi
+9 kyu u
+一 i chi
+二 ni i
+三 sa n
+四 yo n
+五 go
+六 ro ku
+七 na na
+八 ha chi
+九 kyu u
+歩 fu
+香 kyo o
+桂 ke i
+銀 gi n
+金 ki n
+飛 hi
+角 ka ku
+玉 gyo ku
+と to
+杏 na ri kyo o
+圭 na ri ke i
+全 na ri gi n
+龍 ryu u
+馬 u ma
+打 u tsu
+引 hi ku
+寄 yo ru
+上 a ga ru
+右 mi gi
+左 hi da ri
+直 su gu
+同 do u
+成 na ri
+不成 na ra zu

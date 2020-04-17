@@ -1,0 +1,352 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.2 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.2.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.2 --compress=true ark:- ark,scp:/home/ductuan/kaldi/egs/shogi/mfcc/raw_mfcc_test.2.ark,/home/ductuan/kaldi/egs/shogi/mfcc/raw_mfcc_test.2.scp 
+# Started at Fri Apr 17 21:29:30 JST 2020
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.2 --compress=true ark:- ark,scp:/home/ductuan/kaldi/egs/shogi/mfcc/raw_mfcc_test.2.ark,/home/ductuan/kaldi/egs/shogi/mfcc/raw_mfcc_test.2.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.2 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.2.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七と寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七と引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七全左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七圭
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七金寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七金左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七銀右上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七銀右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七銀左成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七飛左成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七飛打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3七香
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三と右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三と右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三全直
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三杏左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三杏引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三桂不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三桂右不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三桂左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三桂打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三歩
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三角不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三角右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三角左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三角左成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三角引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三金右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三銀
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三飛上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三飛上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三馬引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三龍
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3三龍寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九と右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九と直
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九全寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九圭右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九圭直
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九杏
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九杏打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九桂左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九歩
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九角右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九金寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九銀右不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九銀左引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九銀引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九銀引不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九銀打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九飛寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九飛左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九飛成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九香打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九龍右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3九龍左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二杏右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二杏右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二杏左寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二杏左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二金寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二金左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二銀右上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二銀左上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二銀左引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二飛上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二飛引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3二馬右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五と寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五と直
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五全引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五圭上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五圭右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五圭打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五金寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3五馬左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八と
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八と右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八と右寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八と右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八と寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八圭右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八桂不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八歩成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八角右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八角引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八金
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八金右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八金右寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八金左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八銀右引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八銀引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3八銀打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六と上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六と右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六全上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六圭上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六圭左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六杏左
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六角引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六金右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六金左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六銀右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六銀打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六飛上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六飛左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六香打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六馬左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3六龍引
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四桂
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四桂打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四金右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四金右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四金左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四金引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-3四龍上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一と左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一全
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一全打
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一杏打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一桂右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一桂打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一角上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一角打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一金左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一銀右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一飛右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4一香打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七と上
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七と右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七と左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七と左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七全左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七杏左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七桂左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七金上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七金左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七銀右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七銀右不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七銀右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七銀左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七飛引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七香不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七香成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4七馬引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三全右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三全左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三全左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三圭右
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三圭右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三圭右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三圭左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三杏上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三杏右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三杏左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三杏直
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三桂不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三桂右不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三桂左
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三歩
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三角右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三角成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三金
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三金右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三金右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三金左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三銀不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三銀右上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三銀左不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 170 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三銀直
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三飛左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三飛引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4三香
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九全右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九全引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九杏上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九杏右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九杏左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九杏左引
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 180 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九杏引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九角引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀右上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀右引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀左引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九銀左引成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 190 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九飛上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九飛左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九飛左成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4九馬左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二全右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二圭
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二杏
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二桂右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二歩打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二角上
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 200 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二角右不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二銀右上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二銀右引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二銀右引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二銀左引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二飛上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二飛右不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二飛寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二飛引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二香打
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 210 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4二龍
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五と左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五圭左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五圭打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五杏右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五桂
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五銀上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五銀右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五飛上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五飛寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 220 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五香打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五龍上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4五龍左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八全
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八杏右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八杏右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八桂右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八角上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八角上成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八角右成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 230 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八金打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八銀
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八銀右引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八飛左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4八馬打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六全右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六全左上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六全引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六圭上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六圭引
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 240 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六馬
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六馬打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4六龍上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四と左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四圭左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四圭引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四歩
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四金右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四金右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四銀右引
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 250 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四龍上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-4四龍打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一と右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一全右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一圭左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一杏
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一杏右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一杏右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一杏左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一桂不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 260 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一桂右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一金左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一銀不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一銀左成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一飛右不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5一龍
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七と右引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七と左引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七全左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七圭引
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 270 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七杏右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七桂不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七角上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七角引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七角引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七金右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七金左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七銀
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七銀左引成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七飛右成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 280 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七香不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七馬右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5七龍寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三と右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三と右寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三桂
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三桂成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三角左成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三金左寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三金直
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 290 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三銀上不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三銀不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三銀左引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三銀引不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三銀成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三飛右
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三飛右成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三飛左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5三龍上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九と寄
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 300 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九と引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九と打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九全左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九圭右上
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九圭寄
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九角成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九金打
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九銀左
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九銀引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九銀直不成
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:181) Processed 310 utterances
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九飛左不成
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九飛引
+VLOG[2] (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:182) Processed features for key sp01-5九馬右
+LOG (compute-mfcc-feats[5.5.669~1-b1d80]:main():compute-mfcc-feats.cc:185)  Done 312 out of 312 utterances.
+LOG (copy-feats[5.5.669~1-b1d80]:main():copy-feats.cc:143) Copied 312 feature matrices.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Apr 17 21:29:32 JST 2020, elapsed time 2 seconds

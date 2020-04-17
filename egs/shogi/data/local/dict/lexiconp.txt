@@ -1,0 +1,44 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+1 1.0	i chi
+2 1.0	ni i
+3 1.0	sa n
+4 1.0	yo n
+5 1.0	go
+6 1.0	ro ku
+7 1.0	na na
+8 1.0	ha chi
+9 1.0	kyu u
+一 1.0	i chi
+二 1.0	ni i
+三 1.0	sa n
+四 1.0	yo n
+五 1.0	go
+六 1.0	ro ku
+七 1.0	na na
+八 1.0	ha chi
+九 1.0	kyu u
+歩 1.0	fu
+香 1.0	kyo o
+桂 1.0	ke i
+銀 1.0	gi n
+金 1.0	ki n
+飛 1.0	hi
+角 1.0	ka ku
+玉 1.0	gyo ku
+と 1.0	to
+杏 1.0	na ri kyo o
+圭 1.0	na ri ke i
+全 1.0	na ri gi n
+龍 1.0	ryu u
+馬 1.0	u ma
+打 1.0	u tsu
+引 1.0	hi ku
+寄 1.0	yo ru
+上 1.0	a ga ru
+右 1.0	mi gi
+左 1.0	hi da ri
+直 1.0	su gu
+同 1.0	do u
+成 1.0	na ri
+不成 1.0	na ra zu

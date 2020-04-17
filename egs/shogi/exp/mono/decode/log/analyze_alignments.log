@@ -1,0 +1,21 @@
+# gunzip -c exp/mono/decode/phone_stats.*.gz | steps/diagnostic/analyze_phone_length_stats.py exp/mono/graph 
+# Started at Fri Apr 17 18:56:08 JST 2020
+#
+At utterance begin, sil accounts for 100.0% of phone occurrences, with duration (median, mean, 95-percentile) is (7,7.0,7) frames.
+At utterance end, sil accounts for 100.0% of phone occurrences, with duration (median, mean, 95-percentile) is (14,14.0,14) frames.
+Overall, nonsilence accounts for 71.4% of phone occurrences, with duration (median, mean, 95-percentile) is (15,18.7,28) frames.
+Overall, sil accounts for 28.6% of phone occurrences, with duration (median, mean, 95-percentile) is (7,9.2,9) frames.
+Overall, i_B accounts for 14.3% of phone occurrences, with duration (median, mean, 95-percentile) is (8,15.5,8) frames.
+Overall, chi_E accounts for 14.3% of phone occurrences, with duration (median, mean, 95-percentile) is (15,21.5,15) frames.
+Overall, n_E accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (30,30.0,30) frames.
+Overall, ro_B accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (7,7.0,7) frames.
+Overall, ku_E accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (27,27.0,27) frames.
+Overall, na_B accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (13,13.0,13) frames.
+Overall, gi_I accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (28,28.0,28) frames.
+Overall, ri_I accounts for 7.1% of phone occurrences, with duration (median, mean, 95-percentile) is (8,8.0,8) frames.
+The optional-silence phone sil occupies 16.5% of frames overall 
+Limiting the stats to the 90.6% of frames not covered by an utterance-[begin/end] phone, optional-silence sil occupies 7.9% of frames.
+Assuming 100 frames per second, the alignments represent 0.0 hours of data, or 0.0 hours if sil frames are excluded.
+Utterance-internal optional-silences sil comprise 16.7% of utterance-internal phones, with duration (median, mean, 95-percentile) = (7,8.0,7)
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Apr 17 18:56:08 JST 2020, elapsed time 0 seconds

@@ -1,0 +1,45 @@
+!SIL !SIL sil_S
+1 1 i_B chi_E
+2 2 ni_B i_E
+3 3 sa_B n_E
+4 4 yo_B n_E
+5 5 go_S
+6 6 ro_B ku_E
+7 7 na_B na_E
+8 8 ha_B chi_E
+9 9 kyu_B u_E
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+と と to_S
+一 一 i_B chi_E
+七 七 na_B na_E
+三 三 sa_B n_E
+上 上 a_B ga_I ru_E
+不成 不成 na_B ra_I zu_E
+九 九 kyu_B u_E
+二 二 ni_B i_E
+五 五 go_S
+全 全 na_B ri_I gi_I n_E
+八 八 ha_B chi_E
+六 六 ro_B ku_E
+右 右 mi_B gi_E
+同 同 do_B u_E
+四 四 yo_B n_E
+圭 圭 na_B ri_I ke_I i_E
+寄 寄 yo_B ru_E
+左 左 hi_B da_I ri_E
+引 引 hi_B ku_E
+成 成 na_B ri_E
+打 打 u_B tsu_E
+杏 杏 na_B ri_I kyo_I o_E
+桂 桂 ke_B i_E
+歩 歩 fu_S
+玉 玉 gyo_B ku_E
+直 直 su_B gu_E
+角 角 ka_B ku_E
+金 金 ki_B n_E
+銀 銀 gi_B n_E
+飛 飛 hi_S
+香 香 kyo_B o_E
+馬 馬 u_B ma_E
+龍 龍 ryu_B u_E
